@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingLeft="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/host_options"
+        android:paddingTop="7px"
+        android:paddingBottom="10px"
+        android:background="@color/background_title"
+        android:textSize="25px"
+        android:textColor="@color/text_title"
+        android:textStyle="bold"
+        android:id="@+id/group_options" />
+
+    <RadioGroup
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_edit_text"
+        android:id="@+id/host_options"
+        android:layout_gravity="left">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ping"
+            android:id="@+id/ping_host"
+            android:textColor="@color/text_content"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Open ports"
+            android:textColor="@color/text_content"
+            android:id="@+id/open_ports" />
+    </RadioGroup>
+
+</LinearLayout>

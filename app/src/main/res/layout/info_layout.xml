@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/access_Point_Information"
+                android:paddingLeft="10px"
+                android:paddingTop="7px"
+                android:paddingBottom="10px"
+                android:background="@color/background_title"
+                android:textSize="35px"
+                android:textColor="@color/text_title"
+                android:textStyle="bold"
+                android:layout_marginBottom="10px"
+                android:id="@+id/access_Point_Information_title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/access_Point_Information" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="9px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/access_Point_technology" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="9px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/access_Point_ip" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginTop="10px"
+                android:layout_marginLeft="30px"
+                android:id="@+id/connection_type" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/geolocation_Information"
+                android:paddingLeft="10px"
+                android:paddingTop="7px"
+                android:paddingBottom="10px"
+                android:background="@color/background_title"
+                android:textSize="35px"
+                android:textColor="@color/text_title"
+                android:textStyle="bold"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="5px"
+                android:id="@+id/geolocation_Information_title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:layout_marginLeft="30px"
+                android:textSize="25px"
+                android:id="@+id/geolocation_Information" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

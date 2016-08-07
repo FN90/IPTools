@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_background_pressed">#0099cc</color>
+    <color name="line_divider">#0099cc</color>
+    <color name="process_bar_normal">#99D6EB</color>
+    <color name="process_bar_run">#0099cc</color>
+    <color name="line_divider_drawer">#9E9E9E</color>
+    <color name="background_title">#0099cc</color>
+    <color name="text_content">#0099cc</color>
+    <color name="text_content_hint">#0099cc</color>
+    <color name="text_title">#FFFFFF</color>
+    <color name="line">#0099cc</color>
+    <color name="background_navigation_drawer">#cccc</color>
+</resources>

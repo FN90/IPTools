@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_scanner_title"
+        android:paddingLeft="10px"
+        android:paddingTop="7px"
+        android:paddingBottom="10px"
+        android:background="@color/background_title"
+        android:textSize="35px"
+        android:textColor="@color/text_title"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_edit_text"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".07"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/group_maps">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/text_content_hint"
+                android:textColor="@color/text_content"
+                android:background="@drawable/border_edit_text_ping"
+                android:paddingLeft="10px"
+                android:textSize="30px"
+                android:text=""
+                android:textStyle="bold"
+                android:id="@+id/total_essid" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_button_effect"
+            android:id="@+id/fresh" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/wifi_show"
+        android:layout_width="match_parent"
+        android:divider="@color/line_divider"
+        android:dividerHeight="0.1dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

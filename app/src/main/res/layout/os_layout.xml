@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_Information"
+        android:paddingLeft="10px"
+        android:paddingTop="7px"
+        android:background="@color/background_title"
+        android:textSize="35px"
+        android:textColor="@color/text_title"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10px"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/model_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="15px"
+                    android:paddingBottom="15px"
+                    android:src="@drawable/cpu" />
+
+                <TextView
+                    android:id="@+id/model_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:textColor="@color/text_content"
+                    android:textSize="30px"
+                    android:text="@string/info"
+                    android:textStyle="bold"
+                    android:layout_marginRight="30px"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/device_technology" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/device_monitor" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/device_store" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/line" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info"
+                android:textColor="@color/text_content"
+                android:textSize="25px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginTop="10px"
+                android:layout_marginBottom="10px"
+                android:id="@+id/device_network" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

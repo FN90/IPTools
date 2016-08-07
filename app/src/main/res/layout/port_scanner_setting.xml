@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingLeft="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ports_settings"
+        android:paddingTop="7px"
+        android:paddingBottom="10px"
+        android:background="@color/background_title"
+        android:textSize="25px"
+        android:textColor="@color/text_title"
+        android:textStyle="bold"
+        android:id="@+id/demo" />
+    <LinearLayout
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="10px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scanner Settings"
+            android:paddingTop="7px"
+            android:paddingBottom="10px"
+            android:background="@color/background_title"
+            android:textColor="@color/text_title"
+            android:textStyle="bold"
+            android:textSize="25px"
+            android:id="@+id/textView3" />
+
+        <Spinner
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_settings"
+            android:background="@drawable/border_spinner"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PortRange"
+        android:layout_marginBottom="15px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ports Range"
+            android:paddingTop="7px"
+            android:paddingBottom="10px"
+            android:background="@color/background_title"
+            android:textColor="@color/text_title"
+            android:textStyle="bold"
+            android:textSize="25px"
+            android:id="@+id/Ports_Range" />
+
+        <TableRow
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/text_content"
+                android:layout_width="150px"
+                android:layout_height="wrap_content"
+                android:text="Ports Start"
+                android:layout_marginTop="-9px"
+                android:id="@+id/textView8" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50px"
+                android:inputType="number"
+                android:paddingTop="4px"
+                android:background="@drawable/border_edit_text"
+                android:id="@+id/ports_start" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/text_content"
+                android:layout_width="150px"
+                android:layout_height="wrap_content"
+                android:text="Ports End"
+                android:layout_marginTop="-9px"
+                android:id="@+id/textView9" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:paddingTop="4px"
+                android:layout_height="50px"
+                android:background="@drawable/border_edit_text"
+                android:id="@+id/ports_end" />
+
+        </TableRow>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout_PortSelect"
+        android:layout_marginBottom="10px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ports Select"
+            android:paddingTop="7px"
+            android:paddingBottom="10px"
+            android:background="@color/background_title"
+            android:textSize="25px"
+            android:textColor="@color/text_title"
+            android:textStyle="bold"
+            android:id="@+id/textView5" />
+
+        <EditText
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:id="@+id/port_select"
+            android:textColor="@color/text_content"
+            android:background="@drawable/border_edit_text"
+            android:paddingTop="5px"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="30px"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delay Time"
+            android:paddingTop="7px"
+            android:paddingBottom="10px"
+            android:background="@color/background_title"
+            android:textSize="25px"
+            android:textColor="@color/text_title"
+            android:textStyle="bold"
+            android:id="@+id/textView6" />
+
+        <Spinner
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_delay_time"
+            android:background="@drawable/border_spinner"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

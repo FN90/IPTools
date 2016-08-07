@@ -1,0 +1,72 @@
+<resources>
+    <!--Navigation drawer-->
+    <string-array name="sections">
+        <item>OS Information</item>
+        <item>IP Information</item>
+        <item>Wifi Scanner</item>
+        <item>Port Scanner</item>
+        <item>LAN Scanner</item>
+        <item>Trace route</item>
+        <item>DNS lookup</item>
+        <item>Whois</item>
+        <item>Ping</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="section_titles">
+        <item>OS Information</item>
+        <item>IP Information</item>
+        <item>Wifi Scanner</item>
+        <item>Port Scanner</item>
+        <item>LAN Scanner</item>
+        <item>Trace route</item>
+        <item>DNS lookup</item>
+        <item>Whois</item>
+        <item>Ping</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="sections_icons">
+        <item>@drawable/device</item>
+        <item>@drawable/ip_information</item>
+        <item>@drawable/wifi_scanner</item>
+        <item>@drawable/port_scanner</item>
+        <item>@drawable/lan_scanner</item>
+        <item>@drawable/trace_route</item>
+        <item>@drawable/dns_lookup</item>
+        <item>@drawable/whois</item>
+        <item>@drawable/ping</item>
+        <item>@drawable/about</item>
+    </string-array>
+    <!---Port scanner-->
+    <string name="app_name">IP Tools</string>
+    <string name="device_Information">OS Information</string>
+    <string name="ip_info_title">IP Information</string>
+    <string name="geolocation_Information">Geolocation Information</string>
+    <string name="access_Point_Information">Access Point Information</string>
+    <string name="address">Address Settings</string>
+    <string name="info">Info</string>
+    <string name="wifi_scanner_title">Wifi Scanner</string>
+    <string name="port_scanner">Port Scanner</string>
+    <string name="ports_range">Ports Range</string>
+    <string name="ports_settings">Ports Scanner Settings</string>
+    <string name="ports_options">Ports Options</string>
+
+    <string name="lan_scanner">LAN Scanner</string>
+    <string name="host_options">Host Options</string>
+
+    <string name="trace_route">Trace route</string>
+    <string name="dns_lookup">DNS Lookup</string>
+    <string name="whois">Whois</string>
+    <string name="ip_ping_title">Ping</string>
+    <string name="target">Host name or IP</string>
+    <string name="timeout">Timeout</string>
+    <string name="count">Count</string>
+    <string name="Packet_size">Packet size</string>
+    <string name="ip_tools_device">OS Information</string>
+    <string name="ip_tools_about">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ToDoListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ip_ping_title"
+        android:paddingLeft="10px"
+        android:paddingTop="7px"
+        android:paddingBottom="10px"
+        android:background="@color/background_title"
+        android:textSize="35px"
+        android:textColor="@color/text_title"
+        android:textStyle="bold"
+        android:id="@+id/Ping_title" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_edit_text_ping"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".07"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/group_maps">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/text_content_hint"
+                android:textColor="@color/text_content"
+                android:background="@drawable/border_edit_text_ping_target"
+                android:paddingLeft="10px"
+                android:hint="@string/target"
+                android:id="@+id/target" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:id="@+id/ping" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edit_text"
+                android:id="@+id/editText"
+                android:text="@string/count"
+                android:gravity="center"
+                android:editable="false"
+                android:textColor="@color/text_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:background="@drawable/border_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:text="@string/Packet_size"
+                android:gravity="center"
+                android:editable="false"
+                android:textColor="@color/text_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:background="@drawable/border_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:text="@string/timeout"
+                android:gravity="center"
+                android:editable="false"
+                android:textColor="@color/text_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/count"
+                android:inputType="number"
+                android:gravity="center"
+                android:textColor="@color/text_content"
+                android:text="5"
+                android:background="@drawable/border_edit_text"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/packet_size"
+                android:inputType="number"
+                android:gravity="center"
+                android:textColor="@color/text_content"
+                android:text="64"
+                android:background="@drawable/border_edit_text"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_out"
+                android:inputType="number"
+                android:gravity="center"
+                android:textColor="@color/text_content"
+                android:text="10"
+                android:background="@drawable/border_edit_text"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+
+    <ListView
+        android:id="@+id/ping_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
